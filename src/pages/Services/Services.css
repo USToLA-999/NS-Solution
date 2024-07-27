@@ -1,0 +1,14 @@
+.maincontainerbox{
+    background-image: url(../../assets/hero-bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+.lists{
+    list-style: url(../../assets/icons8-done-24.png);
+}
+input{
+    border-bottom: 3px solid;
+    border: none;
+}
