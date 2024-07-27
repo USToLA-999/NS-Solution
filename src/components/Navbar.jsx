@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link   to="/Service">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">Service</li>
         </Link>
-        <Link   to="/TrustSecurity">
+        <Link   to="/Contact">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">Contact</li>
         </Link>
         <Link   to="/About">
