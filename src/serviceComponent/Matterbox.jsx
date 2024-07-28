@@ -11,7 +11,7 @@ const Matterbox = () => {
     setColor(theme === "dark" ? "#ffffff" : "#000000");
   }, [theme]);
 
-  console.log("BoxReveal component loaded", BoxReveal);
+  
 
   return (
     <div className="maincontainer relative overflow-x-clip pb-20 sm:pb-20 bg-blue-100">

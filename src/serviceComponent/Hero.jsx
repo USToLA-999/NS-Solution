@@ -30,10 +30,10 @@ const Hero = () => {
                             </div>
                         
                     </div>
-                    <div className="mx-auto w-full lg:mt-20 md:-mt-5 md:mx-auto  ">
-                        <div className="background-box  w-full bg-orange-50 pt-1   justify-center mx-auto">
-                            <div className="mt-5 w-96  mb-3 mx-auto text-center justify-center items-center">
-                                <h1 className=" text-2xl sm:text-5xl">Apply Now</h1>
+                    <div className="mx-auto w-full md:mx-auto  lg:mt-10 sm:mt-10 ">
+                        <div className="background-box  w-full bg-orange-50 pt-1  rounded-3xl justify-center mx-auto">
+                            <div className="headerlines pt-5 pb-2 mx-auto lg::mx-auto text-wrap  justify-center items-center ">
+                                <h1 className="text-3xl sm:text-5xl text-center">APPLY NOW</h1>
                             </div>
                             <ContactUs />
                         </div>

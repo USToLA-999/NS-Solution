@@ -24,26 +24,27 @@ export const ContactUs = () => {
   };
 
   return (
+    
     <form ref={form} onSubmit={sendEmail} >
-        <div className=" lg:w-96 md: mx-auto">
-            <div className="mt-5 w-96   mx-auto justify-center items-center">
+        <div className="  items-center  mx-auto">
+            <div className="mt-5 lg:w-96   mx-auto justify-center items-center">
                  
-                <input type="text" name="from_name" className='w-full ' placeholder='Full Name' style={{borderBottom:'2px solid', outline:'none'}} />
+                <input type="text" name="from_name" className='w-full ' placeholder='Full Name' style={{borderBottom:'2px solid', outline:'none', height:'50px', paddingLeft:'15px'}} />
             </div>
-            <div className="mt-5 w-96   mx-auto justify-center items-center">
+            <div className="mt-5 lg:w-96   mx-auto justify-center items-center">
                  
-                <input type="email" name="to_email" className='w-full ' placeholder='Email' style={{borderBottom:'2px solid', outline:'none'}} />
+                <input type="email" name="to_email" className='w-full ' placeholder='Email' style={{borderBottom:'2px solid', outline:'none', height:'50px', paddingLeft:'12px'}} />
             </div>
-            <div className="mt-5 w-96   mx-auto justify-center items-center">
+            <div className="mt-5 lg:w-96  mx-auto justify-center items-center">
                 
-                <input type="tel" name="to_tel" className='w-full' placeholder='Phone No.'  style={{borderBottom:'2px solid', outline:'none'}}/>
+                <input type="tel" name="to_tel" className='w-full' placeholder='Phone No.'  style={{borderBottom:'2px solid', outline:'none',height:'50px', paddingLeft:'15px'}}/>
             </div>
             
-            <div className="mt-5  w-96   mx-auto justify-center items-center">
+            <div className="mt-5  lg:w-96    mx-auto justify-center items-center">
                  
-                <textarea name="message" className='w-full' placeholder='Type your Message' />
+                <textarea name="message" className='w-full' placeholder='Type your Message' style={{borderBottom:'2px solid', outline:'none',height:'100px', paddingLeft:'15px'}} />
             </div>
-            <div className="mt-3 pb-3  mx-auto justify-center flex items-center">
+            <div className="mt-3 lg:pb-3  mx-auto justify-center flex items-center">
                 <Button >
                     <button type="submit" value="Send"  > Send</button>
                 </Button>
