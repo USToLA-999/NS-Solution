@@ -1,6 +1,7 @@
 import { DefaultAccordion } from "../../components/AccordianPages"
 import { Footers } from "../../components/Footer"
 import Navbar from "../../components/Navbar"
+import Navbars from "../../components/Navbars"
 import FourBox from "../../serviceComponent/FourBox"
 import Hero from "../../serviceComponent/Hero"
 import IconBars from "../../serviceComponent/IconBars"
@@ -12,7 +13,7 @@ const Service = () => {
   return (
     <>
     <div className=" bg-orange-500">
-        <Navbar/>
+        <Navbars/>
     </div>
     <Hero/>
     <FourBox/>

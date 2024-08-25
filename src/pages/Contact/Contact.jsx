@@ -1,6 +1,7 @@
 import Hero from "../../components/contactcomponents/Hero"
 import { Footers } from "../../components/Footer"
-import Navbar from "../../components/Navbar"
+
+import Navbars from "../../components/Navbars"
 
 
 
@@ -9,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <div className=" bg-orange-500">
-        <Navbar />
+        <Navbars />
      </div>
      <Hero/>
      <Footers/>

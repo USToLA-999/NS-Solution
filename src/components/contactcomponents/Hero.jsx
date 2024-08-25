@@ -4,6 +4,7 @@ import { RiFileCheckFill } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
+
 import Particles from "../magicui/particles";
 
 const Hero = () => {
@@ -38,7 +39,7 @@ const Hero = () => {
                 <p>
                   We are here to assist you with any questions, feedback, or
                   support you may need. Please feel free to reach out to us via
-                  email at NSSOLUTION@GMAil.com or call us at 9136278714. Our
+                  email at NSSOLUTION9@GMAil.com or call us at 9136278714. Our
                   team is dedicated to responding to all inquiries within 24
                   hours. Your satisfaction is our top priority, and we are
                   committed to providing you with the best service possible. For
