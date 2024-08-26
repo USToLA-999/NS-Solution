@@ -3,9 +3,9 @@ export  const links = [
         {
             Head:'Services',
             sublink:[
-                {name:'Income Tax Return', link:'/Service'},
+                {name:'Income Tax Return', link:'/Incomtaxreturn'},
                 {name:'GST FILLING', link:'/Gstfilling'},
-                {name:'company compliance', link:'/Companycomplainces'},
+                {name:'Business Income Return', link:'/CompanyCompliance'},
             ]
         }
     ]},

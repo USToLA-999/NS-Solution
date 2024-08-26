@@ -1,6 +1,6 @@
 import { DefaultAccordion } from "../../components/AccordianPages"
 import { Footers } from "../../components/Footer"
-import Navbar from "../../components/Navbar"
+
 import Navbars from "../../components/Navbars"
 import FourBox from "../../serviceComponent/FourBox"
 import Hero from "../../serviceComponent/Hero"
