@@ -3,9 +3,9 @@ export  const links = [
         {
             Head:'Services',
             sublink:[
-                {name:'Income Tax Return', link:'/Incomtaxreturn'},
-                {name:'GST FILLING', link:'/Gstfilling'},
-                {name:'Business Income Return', link:'/CompanyCompliance'},
+                {name:'Income Tax Return', link:'/incom-tax-return'},
+                {name:'GST FILLING', link:'/gst-filling'},
+                {name:'Business Income Return', link:'/company-compliance'},
             ]
         }
     ]},
@@ -13,9 +13,9 @@ export  const links = [
         {
             Head:'Services',
             sublink:[
-                {name:'ESI Registration', link:'/Employeestateinsurance'},
-                {name:'ISO Registration', link:'/isoregistration'},
-                {name:'TAN Registration', link:'/tanregistration'},
+                {name:'ESI Registration', link:'/employee-state-insurance'},
+                {name:'ISO Registration', link:'/iso-registration'},
+                {name:'TAN Registration', link:'/tan-registration'},
             ]
         }
     ]}

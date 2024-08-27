@@ -11,13 +11,13 @@ const Navbar = () => {
         <Link   to="/">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">Home</li>
         </Link>
-        <Link   to="/Service">
+        <Link   to="/service">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">Service</li>
         </Link>
-        <Link   to="/Contact">
+        <Link   to="/contact">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">Contact</li>
         </Link>
-        <Link   to="/About">
+        <Link   to="/about">
           <li className="py-4 my-2 border-b border-orange-300 hover:bg-orange-300 hover:rounded  ">About</li>
         </Link>
       </ul>

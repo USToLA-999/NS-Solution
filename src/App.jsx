@@ -15,14 +15,14 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Incomtaxreturn" element={<Service />} />
-        <Route path="/Gstfilling" element={<GstFilling />} />
-        <Route path="/companycompliance" element={<CompanyCompliance />} />
-        <Route path="/Employeestateinsurance" element={<EsiRegistration />} />
-        <Route path="/isoregistration" element={<IsoRegistration/>} />
-        <Route path="/tanregistration" element={<TanRegistration/>} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/incom-tax-return" element={<Service />} />
+        <Route path="/gst-filling" element={<GstFilling />} />
+        <Route path="/company-compliance" element={<CompanyCompliance />} />
+        <Route path="/employee-state-insurance" element={<EsiRegistration />} />
+        <Route path="/iso-registration" element={<IsoRegistration/>} />
+        <Route path="/tan-registration" element={<TanRegistration/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

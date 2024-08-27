@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbars from '../../components/Navbars'
 import Hero from '../TanRegistration/Hero'
 import InfoBox from '../TanRegistration/InfoBox'
