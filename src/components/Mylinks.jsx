@@ -13,9 +13,9 @@ export  const links = [
         {
             Head:'Services',
             sublink:[
-                {name:'GST', link:'/'},
-                {name:'IGST', link:'/'},
-                {name:'RGST', link:'/'},
+                {name:'ESI Registration', link:'/Employeestateinsurance'},
+                {name:'ISO Registration', link:'/isoregistration'},
+                {name:'TAN Registration', link:'/tanregistration'},
             ]
         }
     ]}
