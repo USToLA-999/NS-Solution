@@ -9,6 +9,9 @@ import CompanyCompliance from "./pages/Services/CompanyCompliance";
 import EsiRegistration from "./pages/Services/EsiRegistration";
 import IsoRegistration from "./pages/Services/IsoRegistration";
 import TanRegistration from "./pages/Services/TanRegistration";
+import BulkReturn from "./pages/Services/BulkReturn";
+import TdsFilling from "./pages/Services/TdsFilling";
+import IecRegistration from "./pages/Services/IecRegistration";
 
 const App = () => {
   return (
@@ -18,11 +21,15 @@ const App = () => {
         <Route path="/incom-tax-return" element={<Service />} />
         <Route path="/gst-filling" element={<GstFilling />} />
         <Route path="/company-compliance" element={<CompanyCompliance />} />
+        <Route path="/bulk-return-filling" element={<BulkReturn />} />
+        <Route path="/tds-return-filling" element={<TdsFilling />} />
         <Route path="/employee-state-insurance" element={<EsiRegistration />} />
         <Route path="/iso-registration" element={<IsoRegistration/>} />
         <Route path="/tan-registration" element={<TanRegistration/>} />
+        <Route path="/iec-registration" element={<IecRegistration/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        /tds-return-filling
       </Routes>
     </div>
   );

@@ -19,12 +19,12 @@ const NavLinks = () => {
               }}
             >
               {link.name}
-              <span className="text-xl md:hidden inline">
+              <span className="text-4xl md:hidden inline">
                 <ion-icon
                   name={heading === link.name ? "chevron-up" : "chevron-down"}
                 ></ion-icon>
               </span>
-              <span className="text-2xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+              <span className="text-3xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
             </h1>
@@ -33,22 +33,22 @@ const NavLinks = () => {
                 {/* Desktop View */}
                 <div className="hidden  group-hover:md:block hover:md:block">
                   <div className="absolute  z-50 py-3">
-                    <div className="w-4 h-4 left-3 absolute mt-0.5 bg-orange-400 rotate-45"></div>
-                    <div className="bg-orange-400  p-6 mt-2.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {/* <div className="w-4 h-4 left-3 absolute mt-0.5 bg-orange-400 rotate-45"></div> */}
+                    <div className="bg-orange-400 text-3xl p-6 mt-2.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
                       {link.sublinks.map((mysublinks, subIndex) => (
                         <div key={subIndex}>
-                          <h1 className="text-lg  font-semibold">
+                          {/* <h1 className="text-lg  font-semibold">
                             {mysublinks.Head}
-                          </h1>
+                          </h1> */}
                           <ul>
                             {mysublinks.sublink.map((slink, sIndex) => (
                               <li
                                 key={sIndex}
-                                className="text-sm border-b text-gray-600 my-2.5"
+                                className="text-lg border-b text-gray-600 my-2.5"
                               >
                                 <Link
                                   to={slink.link}
-                                  className=" border-b hover:text-primary"
+                                  className=" border-b text-xl hover:text-primary"
                                 >
                                   {slink.name}
                                 </Link>
