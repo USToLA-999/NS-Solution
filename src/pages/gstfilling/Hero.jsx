@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> File Good & Service Tax Online</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">NS Solution is an e-filing intermediary, on the catalog of the Good & Service Tax Department</p>
+                                <p className="text-xl ">Filling your Good & Service Tax Department just Rs: 999/-</p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

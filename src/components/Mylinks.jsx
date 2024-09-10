@@ -1,7 +1,18 @@
 export  const links = [
+    {name:'Registration Services',submenu:'true',sublinks:[
+        {
+           
+            sublink:[
+                {name:'ESI Registration', link:'/employee-state-insurance'},
+                {name:'ISO Registration', link:'/iso-registration'},
+                {name:'TAN Registration', link:'/tan-registration'},
+                {name:'IEC Registration', link:'/iec-registration'},
+            ]
+        }
+    ]},
     {name:'Filling Services',submenu:'true',sublinks:[
         {
-            Head:'Services',
+            
             sublink:[
                 {name:'Income Tax Return', link:'/incom-tax-return'},
                 {name:'GST FILLING', link:'/gst-filling'},
@@ -11,15 +22,5 @@ export  const links = [
             ]
         }
     ]},
-    {name:'Registration Services',submenu:'true',sublinks:[
-        {
-            Head:'Services',
-            sublink:[
-                {name:'ESI Registration', link:'/employee-state-insurance'},
-                {name:'ISO Registration', link:'/iso-registration'},
-                {name:'TAN Registration', link:'/tan-registration'},
-                {name:'IEC Registration', link:'/iec-registration'},
-            ]
-        }
-    ]}
+    
 ]

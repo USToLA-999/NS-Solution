@@ -69,28 +69,15 @@ const NavLinks = () => {
                 >
                   {link.sublinks.map((slinks, subIndex) => (
                     <div key={subIndex}>
-                      <h1
-                        onClick={() =>
-                          setSubHeading(
-                            subHeading !== slinks.Head ? slinks.Head : ""
-                          )
-                        }
-                        className="py-4 pl-7 underline font-semibold flex justify-between items-center"
-                      >
-                        {slinks.Head}
-                        <span className="text-xl">
-                          <ion-icon
-                            
-                          ></ion-icon>
-                        </span>
-                      </h1>
+                      
+                        
+                        
+                      
                       <div
-                        className={`${
-                          subHeading === slinks.Head ? "block" : "hidden"
-                        }`}
+                        
                       >
                         {slinks.sublink.map((slink, sIndex) => (
-                          <li key={sIndex} className="py-3 pl-14">
+                          <li key={sIndex} className="py-3  pl-2">
                             <Link to={slink.link}>{slink.name}</Link>
                           </li>
                         ))}

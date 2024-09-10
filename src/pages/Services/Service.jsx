@@ -2,6 +2,7 @@ import { DefaultAccordion } from "../../components/AccordianPages"
 import { Footers } from "../../components/Footer"
 
 import Navbars from "../../components/Navbars"
+import Cards from "../../serviceComponent/Cards"
 import FourBox from "../../serviceComponent/FourBox"
 import Hero from "../../serviceComponent/Hero"
 import IconBars from "../../serviceComponent/IconBars"
@@ -21,6 +22,7 @@ const Service = () => {
     <IconBars/>
     <Worksbox/>
     <DefaultAccordion/>
+    <Cards/>
     <Footers/>
     </>
   )

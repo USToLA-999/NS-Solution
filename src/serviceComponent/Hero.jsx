@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl">Most Dependable and Easy Way to File Income Tax Return Online</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">NS Solution is an e-filing intermediary, on the catalog of the Income Tax Department</p>
+                                <p className="text-xl ">filing your Income Tax Return for individual just Rs: 499/- </p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

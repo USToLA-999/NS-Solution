@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="headelines justify-center flex align-middle">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  pt-20  text-center lg:pt-32 ">
             <div className="boardline">
-              <h1 className="fonting mx-auto max-w-5xl font-display text-6xl font-medium tracking-tight text-slate-900 sm:text-8xl ">
+              <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-6xl ">
                 Accounting
                 <span className="relative whitespace-nowrap text-orange-500">
                   <svg
@@ -36,7 +36,7 @@ const Hero = () => {
                   </svg>
                   <span className="relative"> made simple </span>
                 </span>{" "}
-                <h1 className="fonting mx-auto max-w-5xl font-display text-6xl font-medium tracking-tight text-slate-900 sm:text-8xl">
+                <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-8xl">
                   for small Businesses
                 </h1>
               </h1>
@@ -60,20 +60,20 @@ const Hero = () => {
               <hr />
               <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-4 mt-2 justify-center  sm:grid-cols-1    ">
                 <div className="">
-                  <FaCheckCircle className="text-2xl text-orange-500 " />
+                  
                   <p className=" text-lg text-center">
                    1. Zero data-entry filing experience
                   </p>
                 </div>
 
                 <div>
-                  <FaCheckCircle className="text-2xl text-orange-500 " />
+                  
                   <p className=" text-lg text-center">
                    2. Auto-selection of ITR type and regime
                   </p>
                 </div>
                 <div>
-                  <FaCheckCircle className="text-2xl text-orange-500 " />
+                 
                   <p className=" text-lg text-center">
                     3. Free notice management from us
                   </p>

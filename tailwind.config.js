@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -7,7 +8,8 @@ module.exports = {
   './app/**/*.{ts,tsx,js,jsx}',
   './src/**/*.{ts,tsx,js,jsx}',
   "./node_modules/flowbite/**/*.js",
-  "./node_modules/flowbite/**/*.jsx"
+  "./node_modules/flowbite/**/*.jsx",
+  "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -101,5 +103,6 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate","@nextui-org/card")],
+  
 }

@@ -7,6 +7,8 @@ import IconBars from "../../serviceComponent/IconBars"
 import Benifitbox from "../gstfilling/Benifitbox"
 import Hero from "../gstfilling/Hero"
 import InfoBox from "../gstfilling/InfoBox"
+import Cards from "../gstfilling/Cards"
+
 
 
 
@@ -22,6 +24,7 @@ const GstFilling = () => {
       <IconBars/>
       <Benifitbox/>
       <AccordionGst/>
+      <Cards/>
       <Footers/>
     </>
   )

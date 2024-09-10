@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> IEC Registration Online</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">To begin an import or export business in India, you must acquire IEC Registration, a 10-digit code provided by the Directorate General of Foreign Trade (DGFT).</p>
+                                <p className="text-xl ">Import Export Code Registration just Rs:- 2499/- with ICE Gate Registration Rs:- 5499/-</p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">
