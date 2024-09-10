@@ -12,6 +12,9 @@ import TanRegistration from "./pages/Services/TanRegistration";
 import BulkReturn from "./pages/Services/BulkReturn";
 import TdsFilling from "./pages/Services/TdsFilling";
 import IecRegistration from "./pages/Services/IecRegistration";
+import PrivateLimited from "./pages/Services/PrivateLimited";
+import OpcRegistration from "./pages/Services/OpcRegistration";
+import LlpRegistration from "./pages/Services/LlpRegistration";
 
 const App = () => {
   return (
@@ -27,6 +30,9 @@ const App = () => {
         <Route path="/iso-registration" element={<IsoRegistration/>} />
         <Route path="/tan-registration" element={<TanRegistration/>} />
         <Route path="/iec-registration" element={<IecRegistration/>} />
+        <Route path="/private-limited-company-registration" element={<PrivateLimited/>} />
+        <Route path="/one-person-company-registration" element={<OpcRegistration/>} />
+        <Route path="/llp-registration" element={<LlpRegistration/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         /tds-return-filling

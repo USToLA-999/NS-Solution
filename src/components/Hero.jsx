@@ -1,7 +1,6 @@
 import image from "../assets/image.png";
 import imag2 from "../assets/imag2.png";
 import { Button } from "./Button";
-import { FaCheckCircle } from "react-icons/fa";
 
 const Hero = () => {
   return (

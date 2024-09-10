@@ -18,7 +18,10 @@ export  const links = [
                 {name:'GST FILLING', link:'/gst-filling'},
                 {name:'Business Income Return', link:'/company-compliance'},
                 {name:'Bulk Return Filling', link:'/bulk-return-filling'},
-                {name:'TDS Return Filling', link:'/tds-return-filling'}
+                {name:'TDS Return Filling', link:'/tds-return-filling'},
+                {name:'Private ltd. Company Registartion', link:'/private-limited-company-registration'},
+                {name:'One Person Company Registration', link:'/one-person-company-registration'},
+                {name:'LLP Registration', link:'/llp-registration'},
             ]
         }
     ]},
