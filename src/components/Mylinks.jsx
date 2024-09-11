@@ -22,6 +22,7 @@ export  const links = [
                 {name:'Private ltd. Company Registartion', link:'/private-limited-company-registration'},
                 {name:'One Person Company Registration', link:'/one-person-company-registration'},
                 {name:'LLP Registration', link:'/llp-registration'},
+                {name:'Sole Proprietorship Registration', link:'/sole-proprietorship-registration'},
             ]
         }
     ]},

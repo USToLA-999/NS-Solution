@@ -15,6 +15,7 @@ import IecRegistration from "./pages/Services/IecRegistration";
 import PrivateLimited from "./pages/Services/PrivateLimited";
 import OpcRegistration from "./pages/Services/OpcRegistration";
 import LlpRegistration from "./pages/Services/LlpRegistration";
+import SoleProprieter from "./pages/Services/SoleProprieter";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/private-limited-company-registration" element={<PrivateLimited/>} />
         <Route path="/one-person-company-registration" element={<OpcRegistration/>} />
         <Route path="/llp-registration" element={<LlpRegistration/>} />
+        <Route path="/sole-proprietorship-registration" element={<SoleProprieter/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         /tds-return-filling
