@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> Employee State Insurance (ESI) Registration</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">Mandatory for all companies with > 10 employees</p>
+                                <p className="text-xl ">required for TDS Return</p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

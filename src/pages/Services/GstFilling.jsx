@@ -8,6 +8,7 @@ import Benifitbox from "../gstfilling/Benifitbox"
 import Hero from "../gstfilling/Hero"
 import InfoBox from "../gstfilling/InfoBox"
 import Cards from "../gstfilling/Cards"
+import Headlinebox from "../gstfilling/Headlinebox"
 
 
 
@@ -24,6 +25,7 @@ const GstFilling = () => {
       <IconBars/>
       <Benifitbox/>
       <AccordionGst/>
+      <Headlinebox/>
       <Cards/>
       <Footers/>
     </>

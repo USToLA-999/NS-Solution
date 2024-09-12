@@ -7,6 +7,7 @@ export  const links = [
                 {name:'ISO Registration', link:'/iso-registration'},
                 {name:'TAN Registration', link:'/tan-registration'},
                 {name:'IEC Registration', link:'/iec-registration'},
+                {name:'FSSAI Registration', link:'/fssai-registration'},
             ]
         }
     ]},
@@ -23,6 +24,8 @@ export  const links = [
                 {name:'One Person Company Registration', link:'/one-person-company-registration'},
                 {name:'LLP Registration', link:'/llp-registration'},
                 {name:'Sole Proprietorship Registration', link:'/sole-proprietorship-registration'},
+                {name:'Partnership Registration', link:'/partnership-registration'},
+                {name:'TradeMark Registration', link:'/trademark-registration'},
             ]
         }
     ]},

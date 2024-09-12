@@ -17,23 +17,32 @@ export function Footers() {
           </Footer.LinkGroup>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
-            <div>
-              <Footer.Title title="about" />
-              <Footer.LinkGroup col>
+            <div> 
+              <Footer.Title title="about" className="text-2xl underline"  />
+              <Footer.LinkGroup col className="mt-3 text-xl">
                 <Footer.Link href="/">NS Solution</Footer.Link>
-                <Footer.Link href="/Service">Services</Footer.Link>
                 <Footer.Link href="/Contact">Contact</Footer.Link>
                 <Footer.Link href="/About">About</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="https://github.com/USToLA-999">Github</Footer.Link>
-                
+              <Footer.Title title="Registration" className="text-2xl underline " />
+              <Footer.LinkGroup col className="mt-3 text-xl">
+              <Footer.Link href="/tan-registration">TAN Registration</Footer.Link>
+                <Footer.Link href="/iso-registration">ISO Registration</Footer.Link>
+                <Footer.Link href="/iec-registration">IEC Registration</Footer.Link>
+                <Footer.Link href="/fssai-registration">FSSAI Registration</Footer.Link>
               </Footer.LinkGroup>
             </div>
-            
+            <div>
+              <Footer.Title title="Filling" className="text-2xl underline " />
+              <Footer.LinkGroup col className="mt-3 text-xl">
+              <Footer.Link href="/incom-tax-return">Income Tax Return</Footer.Link>
+                <Footer.Link href="/gst-filling">GST Filling</Footer.Link>
+                <Footer.Link href="/llp-registration">LLP Registration</Footer.Link>
+                <Footer.Link href="/sole-proprietorship-registration">Sole Proprietership</Footer.Link>
+              </Footer.LinkGroup>
+            </div>
           </div>
         </div>
         <Footer.Divider />

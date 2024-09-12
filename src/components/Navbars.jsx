@@ -37,7 +37,7 @@ const Navbars = () => {
             </ul>
             {/*mobile nav*/ }
             <ul className={`
-                    md:hidden absolute bg-orange-400 z-10  w-full h-85 top-0 py-24 pl-4
+                    md:hidden absolute bg-orange-400 z-20  w-full h-105 top-0 py-24 pl-4
                     duration-500 ${open ? "left-0" : "left-[-100%]"}
                 `}>
                 {/* <li>

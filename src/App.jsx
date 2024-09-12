@@ -16,6 +16,9 @@ import PrivateLimited from "./pages/Services/PrivateLimited";
 import OpcRegistration from "./pages/Services/OpcRegistration";
 import LlpRegistration from "./pages/Services/LlpRegistration";
 import SoleProprieter from "./pages/Services/SoleProprieter";
+import Partnership from "./pages/Services/Partnership";
+import Trademark from "./pages/Services/Trademark";
+import FssaiRegistration from "./pages/Services/FssaiRegistration";
 
 const App = () => {
   return (
@@ -27,6 +30,7 @@ const App = () => {
         <Route path="/company-compliance" element={<CompanyCompliance />} />
         <Route path="/bulk-return-filling" element={<BulkReturn />} />
         <Route path="/tds-return-filling" element={<TdsFilling />} />
+        <Route path="/fssai-registration" element={<FssaiRegistration />} />
         <Route path="/employee-state-insurance" element={<EsiRegistration />} />
         <Route path="/iso-registration" element={<IsoRegistration/>} />
         <Route path="/tan-registration" element={<TanRegistration/>} />
@@ -35,6 +39,8 @@ const App = () => {
         <Route path="/one-person-company-registration" element={<OpcRegistration/>} />
         <Route path="/llp-registration" element={<LlpRegistration/>} />
         <Route path="/sole-proprietorship-registration" element={<SoleProprieter/>} />
+        <Route path="/partnership-registration" element={<Partnership/>} />
+        <Route path="/trademark-registration" element={<Trademark/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         /tds-return-filling

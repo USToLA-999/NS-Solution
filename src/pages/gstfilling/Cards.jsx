@@ -1,28 +1,28 @@
 import React from "react";
 import Card from "./Card";
 
-import image1 from "../../assets/logo.png";
-import image2 from '../../assets/logo.png'
-import image3 from '../../assets/logo.png'
+import image1 from "../../assets/gst12month.jpg";
+import image2 from '../../assets/gst3month.jpg'
+import image3 from '../../assets/gst6month.jpg'
 
 const cards = [
   {
     id: 1,
     amount:2499,
-    title: "3 month",
+    title: "3 month GST Registration",
     image: image1,
   },
   {
     id: 2,
     amount:4499,
-    title: "6 month",
+    title: "6 month GST Registration",
     image: image2,
    
   },
   {
     id: 3,
     amount:8999,
-    title: "12 month",
+    title: "12 month GST Registration",
     image: image3,
     
   },

@@ -8,6 +8,7 @@ import Hero from "../../serviceComponent/Hero"
 import IconBars from "../../serviceComponent/IconBars"
 import Matterbox from "../../serviceComponent/Matterbox"
 import Worksbox from "../../serviceComponent/Worksbox"
+import Headlinebox from "../gstfilling/Headlinebox"
 import './Services.css'
 
 const Service = () => {
@@ -22,6 +23,7 @@ const Service = () => {
     <IconBars/>
     <Worksbox/>
     <DefaultAccordion/>
+    <Headlinebox/>
     <Cards/>
     <Footers/>
     </>

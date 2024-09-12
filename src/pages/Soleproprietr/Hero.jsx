@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl">Sole Proprietorship Registration</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">Register your Sole Proprietorship Registration for individual just Rs: 2499/- </p>
+                                <p className="text-xl ">Register your Sole Proprietorship Registration for individual just <b> Rs: 2499/- </b></p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

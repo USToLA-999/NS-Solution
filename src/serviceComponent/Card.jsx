@@ -11,13 +11,9 @@ function Card({ imageSource, title, text, value }) {
         <img src={imageSource} alt="a wallpaper" className="card-img-top w-100" />
       </div>
       <div className="card-body text-light">
-        <h2 className="card-title">{title}</h2>
-        <h2 className="card-title">Rs: {value}</h2>
-        <p className="card-text text-secondary">
-          {text
-            ? text
-            : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam deserunt fuga accusantium excepturi quia, voluptates obcaecati nam in voluptas perferendis velit harum dignissimos quasi ex? Tempore repellat quo doloribus magnam."}
-        </p>
+        <h2 className="card-title text-3xl">{title}</h2>
+        <h2 className="card-title text-2xl">Rs: {value}</h2>
+        
       </div>
     </div>
   );

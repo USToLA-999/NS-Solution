@@ -13,7 +13,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> Private Limited Company Registration</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">Filling your Private Limited Company Registration just Rs: 9999/-</p>
+                                <p className="text-xl ">Filling your Private Limited Company Registration just <b>Rs: 9999/-</b> </p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">
