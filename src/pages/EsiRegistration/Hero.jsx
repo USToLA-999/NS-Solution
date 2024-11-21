@@ -1,5 +1,6 @@
 import React from 'react'
 import { ContactUs } from '../../serviceComponent/ServiceForm'
+import { BsWhatsapp } from 'react-icons/bs'
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> Employee State Insurance (ESI) Registration</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">Mandatory for all companies with > 10 employees</p>
+                                <p className="text-xl ">Mandatory for all companies with  10+ employees</p>
                             </div>
 
                             <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">
@@ -43,7 +44,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        
+        <a href="https:/wa.me/919315172018"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
     </div>
   )
 }

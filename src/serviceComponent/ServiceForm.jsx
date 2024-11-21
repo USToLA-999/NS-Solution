@@ -40,11 +40,7 @@ export const ContactUs = () => {
                 <input type="tel" name="to_tel" className='w-full' placeholder='Phone No.'  style={{borderBottom:'2px solid', outline:'none',height:'50px', paddingLeft:'15px'}}/>
             </div>
             
-            <div className="mt-5  lg:w-96    mx-auto justify-center items-center">
-                 
-                <textarea name="message" className='w-full' placeholder='Type your Message' style={{borderBottom:'2px solid', outline:'none',height:'100px', paddingLeft:'15px'}} />
-            </div>
-            <div className="mt-3 lg:pb-3  mx-auto justify-center flex items-center">
+            <div className="mt-3 mb-5 lg:pb-3  mx-auto justify-center flex items-center">
                 <Button >
                     <button type="submit" value="Send"  > Send</button>
                 </Button>

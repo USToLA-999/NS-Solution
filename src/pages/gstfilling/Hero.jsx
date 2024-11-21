@@ -1,4 +1,5 @@
 
+import { BsWhatsapp } from 'react-icons/bs'
 import { ContactUs } from '../../serviceComponent/ServiceForm'
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
                             <h1 className="text-3xl sm:text-5xl"> File Good & Service Tax Online</h1>
                         </div>
                             <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                <p className="text-xl ">Filling your Good & Service Tax Department just <b>Rs: 999/-</b></p>
+                                {/* <p className="text-xl ">Filling your Good & Service Tax Department just <b>Rs: 999/-</b></p> */}
                                 <p className="text-xl ">GST filling Slots from <b>Rs: 799/-</b></p>
                             </div>
 
@@ -44,7 +45,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        
+        <a href="https:/wa.me/919315172018"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
     </div>
   )
 }

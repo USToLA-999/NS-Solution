@@ -20,13 +20,14 @@ const GstFilling = () => {
         <Navbars/>
       </div>
       <Hero/>
+      <Headlinebox/>
+      <Cards/>
       <FourBox/>
       <InfoBox/>
       <IconBars/>
       <Benifitbox/>
       <AccordionGst/>
-      <Headlinebox/>
-      <Cards/>
+      
       <Footers/>
     </>
   )

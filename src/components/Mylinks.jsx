@@ -1,4 +1,4 @@
-export  const links = [
+ export  const links = [
     {name:'Registration Services',submenu:'true',sublinks:[
         {
            
@@ -8,6 +8,12 @@ export  const links = [
                 {name:'TAN Registration', link:'/tan-registration'},
                 {name:'IEC Registration', link:'/iec-registration'},
                 {name:'FSSAI Registration', link:'/fssai-registration'},
+                {name:'Private ltd. Company Registartion', link:'/private-limited-company-registration'},
+                {name:'One Person Company Registration', link:'/one-person-company-registration'},
+                {name:'LLP Registration', link:'/llp-registration'},
+                {name:'Sole Proprietorship Registration', link:'/sole-proprietorship-registration'},
+                {name:'Partnership Registration', link:'/partnership-registration'},
+                {name:'TradeMark Registration', link:'/trademark-registration'},
             ]
         }
     ]},
@@ -20,12 +26,6 @@ export  const links = [
                 {name:'Business Income Return', link:'/company-compliance'},
                 {name:'Bulk Return Filling', link:'/bulk-return-filling'},
                 {name:'TDS Return Filling', link:'/tds-return-filling'},
-                {name:'Private ltd. Company Registartion', link:'/private-limited-company-registration'},
-                {name:'One Person Company Registration', link:'/one-person-company-registration'},
-                {name:'LLP Registration', link:'/llp-registration'},
-                {name:'Sole Proprietorship Registration', link:'/sole-proprietorship-registration'},
-                {name:'Partnership Registration', link:'/partnership-registration'},
-                {name:'TradeMark Registration', link:'/trademark-registration'},
             ]
         }
     ]},

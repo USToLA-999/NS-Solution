@@ -1,4 +1,4 @@
-import { BsFillShieldLockFill } from "react-icons/bs";
+import { BsFillShieldLockFill, BsWhatsapp } from "react-icons/bs";
 import { IoShieldHalfOutline } from "react-icons/io5";
 import { RiFileCheckFill } from "react-icons/ri";
 import { useEffect, useState } from "react";
@@ -152,6 +152,7 @@ const Hero = () => {
         color={color}
         refresh
       />
+      <a href="https:/wa.me/919315172018"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
     </div>
   );
 };

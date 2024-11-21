@@ -16,7 +16,7 @@ const Navbars = () => {
             <div className="z-50 p-4 md:w-auto w-full flex justify-between ">
                 <span className="text-4xl font-bold ">
                     <Link to='/' >
-                         NS Solution
+                         CA Solution
                     </Link>
                     </span>
                 <div className="text-3xl md:hidden" onClick={()=>setOpen(!open)}>

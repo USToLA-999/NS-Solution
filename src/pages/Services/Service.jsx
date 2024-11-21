@@ -18,13 +18,15 @@ const Service = () => {
         <Navbars/>
     </div>
     <Hero/>
+    <Headlinebox/>
+    <Cards/>
     <FourBox/>
     <Matterbox/>
     <IconBars/>
     <Worksbox/>
     <DefaultAccordion/>
-    <Headlinebox/>
-    <Cards/>
+    
+    
     <Footers/>
     </>
   )
