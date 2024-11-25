@@ -43,7 +43,6 @@ const App = () => {
         <Route path="/trademark-registration" element={<Trademark/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        /tds-return-filling
       </Routes>
     </div>
   );

@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
         </div>
     </div>
-    <a href="https:/wa.me/919315172018"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
+    <a href="https:/wa.me/919136278714"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
 </div>
   )
 }
