@@ -1,6 +1,7 @@
 
 import { BsWhatsapp } from 'react-icons/bs'
 import { ContactUs } from '../../serviceComponent/ServiceForm'
+import RecieptId from '../../components/RecieptId'
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
                                 </ul>
                             </p>
                             </div>
-                        
+                        {/* <RecieptId/> */}
                     </div>
                     <div className="mx-auto w-full md:mx-auto  lg:mt-10 sm:mt-10 ">
                         <div className="background-box  w-full bg-orange-50 pt-1  rounded-3xl justify-center mx-auto">
