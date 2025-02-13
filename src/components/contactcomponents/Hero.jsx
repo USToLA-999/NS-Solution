@@ -1,8 +1,9 @@
-import { BsFillShieldLockFill, BsWhatsapp } from "react-icons/bs";
+import { BsFillShieldLockFill,  } from "react-icons/bs";
 import { IoShieldHalfOutline } from "react-icons/io5";
 import { RiFileCheckFill } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { IoCall } from "react-icons/io5";
 
 
 import Particles from "../magicui/particles";
@@ -16,7 +17,7 @@ const Hero = () => {
   }, [theme]);
 
   return (
-    <div className="maincontainer relative overflow-x-clip pb-20 sm:pb-20 bg-blue-100">
+    <div className="maincontainer relative overflow-x-clip pt-20 pb-20 sm:pb-20 bg-blue-100">
       <div className="container sm:container mx-auto md:container md:auto">
         <div className="headlinesboix lg:pt-5 lg:pb-5  flex justify-center">
           <div className="biglines text-center  mt-10">
@@ -39,7 +40,7 @@ const Hero = () => {
                 <p>
                   We are here to assist you with any questions, feedback, or
                   support you may need. Please feel free to reach out to us via
-                  email at NSSOLUTION9@GMAil.com or call us at 9136278714. Our
+                  email at <b>services@casol.in</b> or call us at <b>9899971517</b>. Our
                   team is dedicated to responding to all inquiries within 24
                   hours. Your satisfaction is our top priority, and we are
                   committed to providing you with the best service possible. For
@@ -54,7 +55,7 @@ const Hero = () => {
         <div className="headlinesboix lg:pt-5 lg:pb-5  flex justify-center">
           <div className="biglines text-center  mt-10">
             <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-              Welcome to <span className="text-orange-500 font-bold">NS</span>{" "}
+              Welcome to <span className="text-orange-500 font-bold">CA</span>{" "}
               trust and safety center.
             </h1>
           </div>
@@ -152,7 +153,7 @@ const Hero = () => {
         color={color}
         refresh
       />
-      <a href="https:/wa.me/919136278714"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
+       <a href="tel:+91 9899971517"  target="_blank" className="whatsapp_float items-start fixed z-50 bottom-6 left-10 "> <IoCall  className='text-5xl text-green-600' /> </a>
     </div>
   );
 };

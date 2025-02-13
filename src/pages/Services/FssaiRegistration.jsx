@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero from '../Fssai Registartion/Hero'
 import Navbars from '../../components/Navbars'
 import Matterbox from '../Fssai Registartion/Matterbox'
@@ -12,9 +12,9 @@ import { Footers } from '../../components/Footer'
 const FssaiRegistration = () => {
   return (
     <>
-    <div className=" bg-orange-500">
+    <div className=" bg-orange-500 fixed w-full z-50 ">
         <Navbars/>
-      </div>
+    </div>
     <Hero/>
     <Matterbox/>
     <Benifitbox/>

@@ -43,7 +43,7 @@ const Benifitbox = () => {
               <Card className="mt-5">
                 <CardBody>
                   <Typography variant="h5" color="blue-gray" className="mb-2 text-3xl">
-                  Business ease of use
+                  Ease of Business
                   </Typography>
                   <Typography className="text-lg">
                   "One Nation, One Tax" was the concept introduced by TGST. The states' previous unfavorable rivalry has benefited organizations looking to conduct interstate commerce.
@@ -145,9 +145,9 @@ const Benifitbox = () => {
                             </ul>
                         </p>
                     
-                        <p className="mt-5 text-xl">
+                        {/* <p className="mt-5 text-xl">
                         It takes 15 to 30 working days (approx.) to finish the Limited Liability Partnership Registration procedure. The timeline may vary depending on responses from the ROC department.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>

@@ -11,9 +11,9 @@ import Workbox from "../Iecregister/Workbox"
 const IecRegistration = () => {
   return (
     <>
-    <div className=" bg-orange-500">
-        <Navbars />
-      </div>
+    <div className=" bg-orange-500 fixed w-full z-50 ">
+        <Navbars/>
+    </div>
       <Hero/>
       <Fourbox/>
       <Matterbox/>

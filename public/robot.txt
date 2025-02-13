@@ -1,0 +1,5 @@
+# start of file
+user-agent: *
+allow: /about
+disallow: /admin
+disallow: /assets

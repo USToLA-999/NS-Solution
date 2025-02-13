@@ -80,7 +80,7 @@ export function AccordionProp () {
                     </h1>
                   </AccordionHeader>
                   <AccordionBody className="text-lg">
-                  In addition to the PAN card, identification evidence, and address proof of the owner, the Reserve Bank of India requires the proprietor to submit two forms of registration for the proprietorship firm in order to open a bank account. Any two of the following may be used as the two forms of registration: professional license, chartered accountant certificate, MSME registration, VAT/TIN/CST registration, Shop & Establishment Act registration, service tax registration, or other forms as specified by the RBI Know Your Customer guidelines.
+                  In addition to the PAN card, identification evidence, and address proof of the owner, the Reserve Bank of India requires the proprietor to submit two forms of registration for the proprietorship firm in order to open a bank account. Any two of the following may be used as the two forms of registration: professional license, chartered accountant certificate, MSME registration, GST registration, Shop & Establishment Act registration, service tax registration, or other forms as specified by the RBI Know Your Customer guidelines.
                   </AccordionBody>
                 </Accordion>
                 

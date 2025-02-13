@@ -74,7 +74,7 @@ const Advantangebox = () => {
                 </CardBody>
               </Card>
               {/** sixth card */}
-              <Card className="mt-5">
+              {/* <Card className="mt-5">
                 <CardBody>
                   <Typography variant="h5" color="blue-gray" className="mb-2 text-3xl">
                   
@@ -83,7 +83,7 @@ const Advantangebox = () => {
                   Angel investors, financial institutions, venture capital, and other funding sources are easily accessible. It is evident that banks and other financial organizations would much rather lend money to corporations than to proprietary companies or partnership firms that need only minimal ROC filings in order to be registered with the Registrar of Companies.
                   </Typography>
                 </CardBody>
-              </Card>
+              </Card> */}
               {/** seventh card */}
               <Card className="mt-5">
                 <CardBody>

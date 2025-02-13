@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom"
 import NavLinks from "./NavLinks"
 import { useState } from "react"
-
-
-
+import logo from '../assets/logonew.png';
 
 const Navbars = () => {
 
@@ -11,12 +9,12 @@ const Navbars = () => {
 
 
   return (
-    <nav className="">
-        <div className="flex items-center font-medium justify-around">
+    <nav className=" ">
+        <div className="  flex items-center font-medium justify-around">
             <div className="z-50 p-4 md:w-auto w-full flex justify-between ">
-                <span className="text-4xl font-bold ">
+                <span className="">
                     <Link to='/' >
-                         CA Solution
+                         <img src={logo} width={120} height={100} alt="" aria-label="for coming home" />
                     </Link>
                     </span>
                 <div className="text-3xl md:hidden" onClick={()=>setOpen(!open)}>
@@ -38,7 +36,7 @@ const Navbars = () => {
             {/*mobile nav*/ }
             <ul className={`
                     md:hidden absolute bg-orange-400 z-20  w-full h-105 top-0 py-24 pl-4
-                    duration-500 ${open ? "left-0" : "left-[-100%]"}
+                    duration-1000 ${open ? "right-0" : "right-[-100%]"}
                 `}>
                 {/* <li>
                     <Link to="/" className="py-7 px-3 inline-block border-b">Home</Link>

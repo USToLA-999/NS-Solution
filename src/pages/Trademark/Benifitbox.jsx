@@ -126,7 +126,7 @@ const Benifitbox = () => {
 
                   </Typography>
                   <Typography className="text-lg">
-                  NS SOLUTION ensures that they have looked and ascertained whether a trademark or brand registration name is available or if it is registered under a different class on behalf of its clients.
+                  CA Solution ensures that they have looked and ascertained whether a trademark or brand registration name is available or if it is registered under a different class on behalf of its clients.
 
                   </Typography>
                 </CardBody>

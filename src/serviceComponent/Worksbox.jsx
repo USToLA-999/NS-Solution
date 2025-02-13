@@ -15,7 +15,7 @@ const Worksbox = () => {
         <div className="headlinesboix lg:pt-5 lg:pb-10  flex justify-center">
           <div className="biglines  mt-10">
             <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-5xl">
-              How NS Solution Works?
+              How CA Solution Works?
             </h1>
           </div>
         </div>

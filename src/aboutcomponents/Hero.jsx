@@ -1,5 +1,5 @@
 
-import { BsWhatsapp } from "react-icons/bs";
+import { IoCall } from "react-icons/io5";
 import aboutimagepng from "../assets/aboutimagepng.png";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="  lg:mt-10 sm:mt-10">
             <div className="headerlines pt-5 pb-2 mx-auto lg::mx-auto text-wrap  justify-center items-center ">
               <h1 className="text-5xl sm:text-7xl font-bold">
-                We are <span className="text-orange-500 font-bold">NS.</span>{" "}
+                We are <span className="text-orange-500 font-bold">CA.</span>{" "}
                 Connected finances for Indian tax payers.
               </h1>
             </div>
@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="https:/wa.me/919136278714"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
+       <a href="tel:+91 9899971517"  target="_blank" className="whatsapp_float items-start fixed z-50 bottom-6 left-10 "> <IoCall  className='text-5xl text-green-600' /> </a>
     </div>
   );
 };

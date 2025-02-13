@@ -1,7 +1,7 @@
 import image from "../assets/image.png";
 import imag2 from "../assets/imag2.png";
 import { Button } from "./Button";
-import { BsWhatsapp } from "react-icons/bs";
+import { IoCall } from "react-icons/io5";
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="boardline">
               <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-6xl ">
                 Accounting
-                <span className="relative whitespace-nowrap text-orange-500">
+                <span className="relative whitespace-nowrap text-orange-600">
                   <svg
                     aria-hidden="true"
                     viewBox="0 0 418 42"
@@ -42,13 +42,15 @@ const Hero = () => {
               </h1>
             </div>
             <div className=" md:container mx-auto max-w-7xl  sm:px-5 lg:px-8  pt-10 text-center justify-center lg:pt-10 ">
-              <p className="mx-auto  max-w-2xl text-lg tracking-tight text-slate-700">
+              <p className="mx-auto  max-w-2xl text-lg text-center  text-black">
                 Most bookkeeping software is accurate, but hard to use. We make
                 the opposite trade-off, and hope you don’t get audited.
               </p>
             </div>
             <div className="buttonbox mt-4 ">
-              <Button>Call for Details</Button>
+              
+                <a href="tel:+91 9899971517" className=" text-black "><Button >Call for details</Button></a>
+              
             </div>
             <div className=" md:container mx-auto max-w-7xl  sm:px-5 lg:px-8  pt-4 text-center justify-center lg:pt-5 ">
               <p className="mx-auto  max-w-2xl text-lg tracking-tight text-slate-700">
@@ -62,7 +64,7 @@ const Hero = () => {
                 <div className="">
                   
                   <p className=" text-lg text-center">
-                   1. Zero data-entry filing experience
+                   1. 10+ year data-entry filing experience
                   </p>
                 </div>
 
@@ -83,7 +85,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="https:/wa.me/919315172018"  target="_blank" className="whatsapp_float items-start fixed z-10 bottom-6 left-10 "> <BsWhatsapp className='text-5xl text-green-600' /> </a>
+      <a href="tel:+91 9899971517"  target="_blank" className="whatsapp_float items-start fixed z-50 bottom-6 left-10 "> <IoCall  className='text-5xl text-green-600' /> </a>
     </div>
   );
 };

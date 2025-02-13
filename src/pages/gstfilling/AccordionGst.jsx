@@ -59,7 +59,7 @@ function Icon({ id, open }) {
                     </h1>
                   </AccordionHeader>
                   <AccordionBody className="text-lg">
-                  Saying 1-2-3 is all it takes to register for GST with NS SOLUTION. 1. You complete the above application form. 2. Send the necessary documentation by mail. 3. Remain seated. We will file all of the forms. 4. Get an email with your GST number.
+                  Saying 1-2-3 is all it takes to register for GST with CA Solution. 1. You complete the above application form. 2. Send the necessary documentation by mail. 3. Remain seated. We will file all of the forms. 4. Get an email with your GST number.
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
@@ -162,7 +162,7 @@ function Icon({ id, open }) {
                   when the recipient, not the supplier, pays the government's debt. Typically, the supplier is subject to taxation since they are the ones selling the items. But sometimes the buyer is the one who has to pay the tax. Additionally, the customer pays the government's GST directly. We refer to this as a reverse charge. In this case, the obligation to pay taxes is reversed. When a supplier provides a good or service to a taxpayer who is registered for GST but is not registered themselves, RCM is applicable. In this case, the registered taxpayer must pay the relevant GST to the government as a reverse charge. A list of those who would be subject to the reverse charge has also been informed by the administration.
                   </AccordionBody>
                 </Accordion>
-                <Accordion open={open === 13} icon={<Icon id={13} open={open} />}>
+                {/* <Accordion open={open === 13} icon={<Icon id={13} open={open} />}>
                   <AccordionHeader onClick={() => handleOpen(13)}>
                     <h1 className="max-w-5xl font-display text-2xl  tracking-tight text-slate-900 sm:text-2xl">
                     13. What is compilance rating?
@@ -171,7 +171,7 @@ function Icon({ id, open }) {
                   <AccordionBody className="text-lg">
                   Performance and compliance are the two factors that go into the GST compliance rating. Every taxpayer who is registered receives it. The taxpayer's rating is determined by how closely he follows the GST regulations. Depending on the kind of business, a scale from 1 to 10 is used to create the rating system. In this case, 1 represents the least compliance and 10 the highest. The vendor with the greatest rating is the one your buyer would like to deal with.
                   </AccordionBody>
-                </Accordion>
+                </Accordion> */}
               </div>
             </div>
           </div>

@@ -22,10 +22,10 @@ const Benifitbox = () => {
               <Card className="mt-5">
                 <CardBody>
                   <Typography variant="h5" color="blue-gray" className="mb-2 text-3xl">
-                  No Minimum Capital:
+                   Minimum Capital:
                   </Typography>
                   <Typography className="text-lg">
-                  There is no minimum capital requirement to form a Private Limited Company, and it can be registered with as little as Rs. 10,000 in total Authorized Share capital.
+                  There is 1 Lakh of minimum capital requirement to form a Private Limited Company.
                   </Typography>
                 </CardBody>
               </Card>
@@ -85,7 +85,7 @@ const Benifitbox = () => {
                 </CardBody>
               </Card>
               {/** seventh card */}
-              <Card className="mt-5">
+              {/* <Card className="mt-5">
                 <CardBody>
                   <Typography variant="h5" color="blue-gray" className="mb-2 text-3xl">
                   Diminished Tax Evasion
@@ -94,7 +94,7 @@ const Benifitbox = () => {
                   The goods and services tax is a single tax that incorporates several previous taxes and is effective, yet there is a possibility of corruption and tax evasion.
                   </Typography>
                 </CardBody>
-              </Card>
+              </Card> */}
               {/** eighth card */}
               <Card className="mt-5">
                 <CardBody>

@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route,  Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
@@ -19,14 +19,21 @@ import SoleProprieter from "./pages/Services/SoleProprieter";
 import Partnership from "./pages/Services/Partnership";
 import Trademark from "./pages/Services/Trademark";
 import FssaiRegistration from "./pages/Services/FssaiRegistration";
+import GstRegistration from "./pages/Services/GstRegistration";
+import Privacy from "./pages/Services/Privacy";
+import Refund from "./pages/Services/Refund";
 
 const App = () => {
   return (
-    <div>
+    
+
+
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/incom-tax-return" element={<Service />} />
         <Route path="/gst-filling" element={<GstFilling />} />
+        <Route path="/gst-registration" element={<GstRegistration />} />
         <Route path="/company-compliance" element={<CompanyCompliance />} />
         <Route path="/bulk-return-filling" element={<BulkReturn />} />
         <Route path="/tds-return-filling" element={<TdsFilling />} />
@@ -43,8 +50,11 @@ const App = () => {
         <Route path="/trademark-registration" element={<Trademark/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/refund-policy" element={ <Refund /> } />
       </Routes>
-    </div>
+      
+    
   );
 };
 

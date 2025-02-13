@@ -12,9 +12,9 @@ const Trademark = () => {
     <>
     
     
-    <div className=" bg-orange-500">
+    <div className=" bg-orange-500 fixed w-full z-50 ">
         <Navbars/>
-      </div>
+    </div>
       <Hero/>
       <Matterbox/>
       <Benifitbox/>

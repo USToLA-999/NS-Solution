@@ -16,7 +16,7 @@ const FourBox = () => {
                         <div className="justify-center mt-3  items-center"> 
                         <div className="relative flex text-xl  pt-4 pb-4 px-4  w-full   flex-col  justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
                                 <div className="headercontent mt-4">
-                                    <h1 className="text-2xl lg:text-2xl">File Income Tax Return  with NS Solution</h1>
+                                    <h1 className="text-2xl lg:text-2xl">File Income Tax Return  with CA Solution</h1>
                                 </div>
                                 <div className="paralines mt-3 mb-3">
                                     <ul className="lists mx-5 text-start text-xl">

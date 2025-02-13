@@ -37,7 +37,7 @@ const Matterbox = () => {
                     </p>
                   <p className="mt-4">
                         {" "}
-                        As a result, every participant in an LLP benefits from a form of "limited liability" that serves as the partnership's safeguard for them. "NS Solution," located in "Delhi " is responsible for LLP registration.
+                        As a result, every participant in an LLP benefits from a form of "limited liability" that serves as the partnership's safeguard for them. "CA Solution," located in "Delhi " is responsible for LLP registration.
                   </p>
                 </BoxReveal>
               </div>

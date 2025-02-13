@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbars from '../../components/Navbars'
 import Hero from '../IsoRegistration/Hero'
 import Infobox from '../IsoRegistration/Infobox'
@@ -10,9 +10,9 @@ import { Footers } from '../../components/Footer'
 const IsoRegistration = () => {
   return (
     <>
-        <div className=" bg-orange-500">
+        <div className=" bg-orange-500 fixed w-full z-50 ">
         <Navbars/>
-      </div>
+    </div>
       <Hero/>
       <Infobox/>
       <IconBars/>

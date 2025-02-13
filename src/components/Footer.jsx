@@ -1,7 +1,8 @@
-
+import logo from '../assets/logonew.png'
 import { Footer } from "flowbite-react";
-import {  BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-
+import {  BsFacebook,  BsInstagram,  } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 export function Footers() {
   return (
     <Footer container bgDark >
@@ -9,25 +10,23 @@ export function Footers() {
         <div className="grid text-white w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="text-white">
           <Footer.LinkGroup>
-            <Footer.Link href="/" className=" mt-5 mb-5 sm:text-center flex justify-center">
-                <h1 className="max-w-5xl font-display text-2xl  tracking-tight text-white sm:text-5xl">
-                    NS Solution
-                </h1>
+            <Footer.Link href="/" className=" mt-5 mb-5  flex justify-center">
+                <img src={logo} width={120} height={100} alt="" aria-label='for going to home page' />
             </Footer.Link>
           </Footer.LinkGroup>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div> 
-              <Footer.Title title="about" className="text-2xl underline"  />
-              <Footer.LinkGroup col className="mt-3 text-xl">
-                <Footer.Link href="/">NS Solution</Footer.Link>
+              <Footer.Title title="about" className="text-2xl text-white underline"  />
+              <Footer.LinkGroup col className="mt-3 text-xl text-white">
+                <Footer.Link href="/">CA Solution</Footer.Link>
                 <Footer.Link href="/Contact">Contact</Footer.Link>
                 <Footer.Link href="/About">About</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Registration" className="text-2xl underline " />
-              <Footer.LinkGroup col className="mt-3 text-xl">
+              <Footer.Title title="Registration" className="text-2xl text-white underline " />
+              <Footer.LinkGroup col className="mt-3 text-white text-xl">
               <Footer.Link href="/tan-registration">TAN Registration</Footer.Link>
                 <Footer.Link href="/iso-registration">ISO Registration</Footer.Link>
                 <Footer.Link href="/iec-registration">IEC Registration</Footer.Link>
@@ -35,8 +34,8 @@ export function Footers() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Filling" className="text-2xl underline " />
-              <Footer.LinkGroup col className="mt-3 text-xl">
+              <Footer.Title title="Filling" className="text-2xl text-white underline " />
+              <Footer.LinkGroup col className="mt-3 text-white text-xl">
               <Footer.Link href="/incom-tax-return">Income Tax Return</Footer.Link>
                 <Footer.Link href="/gst-filling">GST Filling</Footer.Link>
                 <Footer.Link href="/llp-registration">LLP Registration</Footer.Link>
@@ -46,14 +45,17 @@ export function Footers() {
           </div>
         </div>
         <Footer.Divider />
-        <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="NS Solution™" year={2024} />
+        <div className="w-full text-white sm:flex sm:items-center sm:justify-between">
+          <Footer.Copyright href="#" by="CA Solution™" year={2024} className='text-white' />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="https://github.com/USToLA-999" icon={BsGithub} />
+            <Footer.Icon aria-label='for going to facebook page' className='text-white' href="#" icon={BsFacebook} />
+            <Footer.Icon aria-label='for going to instagram page' className='text-white' href="#" icon={BsInstagram} />
+            <Footer.Icon aria-label='for going to twitter page' className='text-white' href="#" icon={FaXTwitter} />
+            
           </div>
+        </div>
+        <div className="w-full text-white sm:flex sm:items-center sm:justify-between">
+          <p>By continuing past this page, you agree to our <Link to='/privacy-policy' className='underline ' > Privacy Policy</Link> and <Link to='/refund-policy' className='underline ' > Refund Policy </Link></p>
         </div>
       </div>
     </Footer>

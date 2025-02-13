@@ -12,18 +12,18 @@ const IconBars = () => {
         <div className="headlinesboix lg:pt-5 lg:pb-10  flex justify-center">
           <div className="biglines  mt-10">
             <h1 className="fonting mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-5xl">
-              Why Use NS Solution?
+              Why Use CA Solution?
             </h1>
           </div>
         </div>
         <div className="justify-center  mx-auto mt-5 ">
-          <div className="grid lg:grid-cols-4 md:grid-cols-1 gap-8 mt-2 justify-center  sm:grid-cols-1  ">
+          <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-8 mt-2 justify-center  sm:grid-cols-1  ">
             <div className=" justify-center text-center flex ">
               <div className="relative flex  w-full md:w-80  flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
                 <CiGlobe className="text-slate-900  rounded-xl text-center align-middle sm:text-center mx-auto mt-4  text-8xl" />
 
                 <p className=" text-slate-900 mb-3  z-10 mt-3 text-3xl  ">
-                  Easy To Operate
+                  Real Time Solution
                 </p>
 
                 <BorderBeam size={250} duration={10} delay={9} />
@@ -44,12 +44,12 @@ const IconBars = () => {
                 <BiUser className="text-slate-900  rounded-xl text-center align-middle sm:text-center mx-auto mt-4  text-8xl" />
 
                 <p className=" text-slate-900 mb-3  z-10 mt-3 text-3xl  ">
-                  Time Saving
+                  Experienced Professionals
                 </p>
                 <BorderBeam size={250} duration={12} delay={9} />
               </div>
             </div>
-            <div className=" justify-center text-center flex ">
+            {/* <div className=" justify-center text-center flex ">
               <div className="relative flex  w-full md:w-80 flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
                 <BiWallet className="text-slate-900  rounded-xl text-center align-middle sm:text-center mx-auto mt-4  text-8xl" />
 
@@ -58,7 +58,7 @@ const IconBars = () => {
                 </p>
                 <BorderBeam size={250} duration={13} delay={9} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

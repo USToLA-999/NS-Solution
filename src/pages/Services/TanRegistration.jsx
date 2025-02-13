@@ -9,9 +9,9 @@ import { Footers } from '../../components/Footer'
 const TanRegistration = () => {
   return (
     <>
-    <div className=" bg-orange-500">
-        <Navbars />
-      </div>
+    <div className=" bg-orange-500 fixed w-full z-50 ">
+        <Navbars/>
+    </div>
       <Hero/>
       <InfoBox/>
       <IconBars/>
