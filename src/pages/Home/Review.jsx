@@ -57,8 +57,8 @@ export default function Review() {
                                 </Typography>
                             </div>
                             <Typography color="black">
-                                I recently had my Company's name registered as a trademark, and the entire process was seamless, thanks to the exceptional services provided by CA Solution. Special mention to Mayank, who guided me through every step of the legal formalities with utmost professionalism and efficiency. From understanding the requirements to filing the necessary paperwork, Mayank ensured that the process was hassle-free and completed in a timely manner.
-                                I highly recommend CA Solution, for anyone looking to register their trademark.
+                                I recently had my Company's name registered as a trademark, and the entire process was seamless, thanks to the exceptional services provided by Online Texas. Special mention to Mayank, who guided me through every step of the legal formalities with utmost professionalism and efficiency. From understanding the requirements to filing the necessary paperwork, Mayank ensured that the process was hassle-free and completed in a timely manner.
+                                I highly recommend Online Texas, for anyone looking to register their trademark.
                             </Typography>
 
                         </CardBody>
@@ -100,7 +100,7 @@ export default function Review() {
                                 </Typography>
                             </div>
                             <Typography color="black">
-                            I recently used CA Solution for trademark registration, and I am highly impressed with their efficient and professional service. The process was smooth, and Mayank was particularly helpful, providing prompt responses and clear guidance throughout. I appreciated the team's expertise and dedication to resolving queries quickly. Thank you, CA Solution, for making this a hassle-free experience!
+                            I recently used Online Texas for trademark registration, and I am highly impressed with their efficient and professional service. The process was smooth, and Mayank was particularly helpful, providing prompt responses and clear guidance throughout. I appreciated the team's expertise and dedication to resolving queries quickly. Thank you, Online Texas, for making this a hassle-free experience!
                             </Typography>
 
                         </CardBody>
@@ -142,7 +142,7 @@ export default function Review() {
                                 </Typography>
                             </div>
                             <Typography color="black">
-                            I had the pleasure of working with CA Solution, a highly professional and reliable legal consultancy firm. Their team, particularly Dimpee, provided exceptional support and guidance throughout our engagement. Dimpee's expertise and knowledge in his field are impressive. His communication skills are excellent, and he kept us informed every step of the way.
+                            I had the pleasure of working with Online Texas, a highly professional and reliable legal consultancy firm. Their team, particularly Dimpee, provided exceptional support and guidance throughout our engagement. Dimpee's expertise and knowledge in his field are impressive. His communication skills are excellent, and he kept us informed every step of the way.
                             </Typography>
 
                         </CardBody>

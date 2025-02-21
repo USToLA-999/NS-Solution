@@ -59,7 +59,7 @@ function Icon({ id, open }) {
                     </h1>
                   </AccordionHeader>
                   <AccordionBody className="text-lg">
-                  Saying 1-2-3 is all it takes to register for GST with CA Solution. 1. You complete the above application form. 2. Send the necessary documentation by mail. 3. Remain seated. We will file all of the forms. 4. Get an email with your GST number.
+                  Saying 1-2-3 is all it takes to register for GST with Online Texas. 1. You complete the above application form. 2. Send the necessary documentation by mail. 3. Remain seated. We will file all of the forms. 4. Get an email with your GST number.
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>

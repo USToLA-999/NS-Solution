@@ -14,7 +14,7 @@ const Hero = () => {
                                 <h1 className="text-3xl sm:text-5xl"> Are you Looking gor GST Registration ?</h1>
                             </div>
                                 <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                    <p className="text-xl ">CA Solution doing GST Registartion Professionally at ₹999/- </p>
+                                    <p className="text-xl ">Online Texas doing GST Registartion Professionally at ₹999/- </p>
                                 </div>
     
                                 <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

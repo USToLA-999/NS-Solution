@@ -13,7 +13,7 @@ const Hero = () => {
                                 <h1 className="text-3xl sm:text-5xl"> File Business Income Return Online</h1>
                             </div>
                                 <div className="paralines mt-3 md:mt-5 sm:mt-5 ">
-                                    <p className="text-xl ">CA Solution is an e-filing intermediary, on the catalog of the Good & Service Tax Department</p>
+                                    <p className="text-xl ">Online Texas is an e-filing intermediary, on the catalog of the Good & Service Tax Department</p>
                                 </div>
     
                                 <div className="pointsbox mt-3 lg:mt-5 sm:mt-5">

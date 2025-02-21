@@ -40,7 +40,7 @@ const Hero = () => {
                 <p>
                   We are here to assist you with any questions, feedback, or
                   support you may need. Please feel free to reach out to us via
-                  email at <b>services@casol.in</b> or call us at <b>9899971517</b>. Our
+                  email at <b>services@OnlineTexas.in</b> or call us at <b>9899971517</b>. Our
                   team is dedicated to responding to all inquiries within 24
                   hours. Your satisfaction is our top priority, and we are
                   committed to providing you with the best service possible. For

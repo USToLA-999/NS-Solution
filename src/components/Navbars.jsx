@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import NavLinks from "./NavLinks"
 import { useState } from "react"
-import logo from '../assets/logonew.png';
+import logo from '../assets/newlogo2.png';
 
 const Navbars = () => {
 

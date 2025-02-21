@@ -30,10 +30,9 @@ const PrivacyPolicy = () => {
                     likely ways in which a party collects, uses, discloses, and
                     maintains a client's data while also safeguarding that
                     client's personal information. This privacy statement
-                    regulates how users (including Users) of CASOL.IN obtain or
-                    share information from the CASOL.IN website when accessing
-                    the https://www.CASOL.in/ website. The Website and all of CA
-                    Solution's goods and services are covered by this privacy
+                    regulates how users (including Users) of OnlineTexas.IN obtain or
+                    share information from the OnlineTexas.IN website when accessing
+                    the https://www.OnlineTexas.in/ website. The Website and all of Online Texa's goods and services are covered by this privacy
                     statement.
                   </p>
                 </div>

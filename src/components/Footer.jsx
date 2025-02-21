@@ -1,4 +1,4 @@
-import logo from '../assets/logonew.png'
+import logo from '../assets/newlogo2.png'
 import { Footer } from "flowbite-react";
 import {  BsFacebook,  BsInstagram,  } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
@@ -19,7 +19,7 @@ export function Footers() {
             <div> 
               <Footer.Title title="about" className="text-2xl text-white underline"  />
               <Footer.LinkGroup col className="mt-3 text-xl text-white">
-                <Footer.Link href="/">CA Solution</Footer.Link>
+                <Footer.Link href="/">Online Texas</Footer.Link>
                 <Footer.Link href="/Contact">Contact</Footer.Link>
                 <Footer.Link href="/About">About</Footer.Link>
               </Footer.LinkGroup>
@@ -46,7 +46,7 @@ export function Footers() {
         </div>
         <Footer.Divider />
         <div className="w-full text-white sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="CA Solution™" year={2024} className='text-white' />
+          <Footer.Copyright href="#" by="Online Texas™" year={2024} className='text-white' />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon aria-label='for going to facebook page' className='text-white' href="#" icon={BsFacebook} />
             <Footer.Icon aria-label='for going to instagram page' className='text-white' href="#" icon={BsInstagram} />

@@ -10,6 +10,6 @@ export default function ScrollToTop (){
   }, [location]);
 
   return null;
-};
+}
 
 

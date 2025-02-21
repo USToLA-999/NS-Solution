@@ -76,7 +76,7 @@ export function DefaultAccordion() {
                 </AccordionHeader>
                 <AccordionBody className="text-lg">
                   You can file your income tax returns online, either on the
-                  income tax department’s website or with us at www.cleartax.in.
+                  income tax department’s website or with us at www.onlinetexas.in.
                   Income Tax filing or e-filling is made easy on Cleartax. You
                   can e-file your returns in just 3 minutes without any manual
                   effort. Also, note that the due date to e-file your income tax
