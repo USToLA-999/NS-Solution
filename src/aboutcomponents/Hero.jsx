@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="  lg:mt-10 sm:mt-10">
             <div className="headerlines pt-5 pb-2 mx-auto lg::mx-auto text-wrap  justify-center items-center ">
               <h1 className="text-5xl sm:text-7xl font-bold">
-                We are <span className="text-orange-500 font-bold">Online Texas.</span>{" "}
+                We are <span className="text-orange-500 font-bold">CA Solution.</span>{" "}
                 Connected finances for Indian tax payers.
               </h1>
             </div>

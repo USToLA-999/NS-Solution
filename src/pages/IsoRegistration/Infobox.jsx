@@ -43,7 +43,7 @@ const Infobox = () => {
               <BoxReveal boxColor={"#5046e6"} duration={0.5}>
                 <p>
                   {" "}
-                  According to the ESI Act of 1948, units or establishments with ten or more employees that pay up to Rs. 15,000 a month must be registered for ESIC. The benefits provided by the program are backed by pledges made by companies and covered employees at a certain wage percentage. Currently, covered businesses contribute 4.75% of earnings owed to their employees, and covered employees contribute 1.75% of wages to the ESIC. Additionally, the state bears a 1/8th portion of the cost of medical benefits. Online Texas handles ESI Registration.
+                  According to the ESI Act of 1948, units or establishments with ten or more employees that pay up to Rs. 15,000 a month must be registered for ESIC. The benefits provided by the program are backed by pledges made by companies and covered employees at a certain wage percentage. Currently, covered businesses contribute 4.75% of earnings owed to their employees, and covered employees contribute 1.75% of wages to the ESIC. Additionally, the state bears a 1/8th portion of the cost of medical benefits. CA Solution handles ESI Registration.
                 </p>
               </BoxReveal>
             </div> */}

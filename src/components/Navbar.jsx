@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="  h-10vh justify-between flex z-500 text-white lg:py-5 px-5 py-4 ">
         <div className="flex-1 flex items-center  ">
         <Link   to="/">
-          <span className="text-3xl font-bold ">Online Texas</span>
+          <span className="text-3xl font-bold ">CA Solution</span>
         </Link>
           <div className="lg:flex md:flex flex flex-1 items-center justify-end font-normal hidden ">
             <div className="flex-10  ">

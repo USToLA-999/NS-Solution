@@ -23,7 +23,7 @@ const Main = () => {
         <div className="headlinesboix lg:pt-5 lg:pb-10  flex justify-center">
           <div className="biglines  mt-10">
             <h1 className="fonting mx-auto max-w-5xl  text-2xl   tracking-tight text-slate-900 sm:text-4xl">
-              Who can file ITR on Online Texas?
+              Who can file ITR on CA Solution?
             </h1>
           </div>
         </div>
